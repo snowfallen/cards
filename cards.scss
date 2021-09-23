@@ -70,3 +70,14 @@ body {
       }
   }
 }
+@media (max-width:768px){
+  .container-cards{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    .container-cards__slide{
+      height: 50px;
+      width: 95%;
+    }
+  }
+}
